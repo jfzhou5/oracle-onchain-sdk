@@ -31,5 +31,11 @@ manage the verifiers and try to verify the result of task
 
 Another plan for the verification: all verifier can handle the task and verify the result on the offchain service and only submit the result to oracle with their signatures.
 
+## Integration Test
+
+example: HTTP_CALL task.
+<https://github.com/jfzhou5/oracle-onchain-sdk/blob/main/test/taskManager.ts#L90>
+
 ## Flow chart
+
 ![alt text](</sources/flow.png>)
